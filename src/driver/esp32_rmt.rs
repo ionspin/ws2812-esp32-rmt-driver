@@ -3,10 +3,10 @@ use once_cell::sync::OnceCell;
 use std::cmp::min;
 use std::ffi::c_void;
 
-const WS2812_TO0H_NS: u16 = 400;
-const WS2812_TO0L_NS: u16 = 850;
-const WS2812_TO1H_NS: u16 = 800;
-const WS2812_TO1L_NS: u16 = 450;
+const WS2812_TO0H_NS: u16 = 300;
+const WS2812_TO0L_NS: u16 = 900;
+const WS2812_TO1H_NS: u16 = 600;
+const WS2812_TO1L_NS: u16 = 600;
 
 static WS2812_ITEM_ENCODER: OnceCell<Ws2812Esp32RmtItemEncoder> = OnceCell::new();
 
